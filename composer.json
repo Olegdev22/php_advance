@@ -1,0 +1,17 @@
+{
+    "name": "root/html",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MyLib\\": "src/"
+        },
+        "files": [
+            "helpers/functions.php"
+        ]
+    },
+    "require": {
+        "larapack/dd": "^1.1",
+      "ext-pdo": "*"
+    }
+}
