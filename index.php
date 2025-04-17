@@ -1,6 +1,9 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 
+require_once __DIR__ . '/Patterns/FabricMethod/index.php';
+echo "<br>";
+
 $dsn = 'mysql:host=database;database=php_advanced';
 
 try {
