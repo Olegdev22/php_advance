@@ -4,7 +4,8 @@
     "autoload": {
         "psr-4": {
             "App\\": "App/",
-            "MyLib\\": "src/"
+            "MyLib\\": "src/",
+            "Patterns\\": "Patterns/"
         },
         "files": [
             "helpers/functions.php"

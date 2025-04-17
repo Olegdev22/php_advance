@@ -2,5 +2,5 @@
 
 function sayHello(): void
 {
-    echo "Hello World!!";
+    echo "Hello World2!!";
 }
