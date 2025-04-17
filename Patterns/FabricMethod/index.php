@@ -12,7 +12,7 @@ use Patterns\FabricMethod\Shippings\Creators\ShippingCalculator;
 
 function createOrder(ShippingCalculator $calculator, $region = ShippingRegion::EUROPE)
 {
-   echo $calculator->calculate($region);
+    echo $calculator->calculate($region);
 }
 
 // условно полученные данные из формы
